@@ -53,6 +53,6 @@ function compute()
 // updates the displayed interest rate when the slider is moved
 function updateRate() {
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText = rateval;
+    document.getElementById("rate_val").innerText = rateval + "%";
 }
         
